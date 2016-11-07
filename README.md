@@ -1,8 +1,10 @@
 # WebPgDesign2_Assign1
 This assignment focuses on utilizing various style types for part A. In part B, a table is created that utilizes pseudo-class definitions.
 
-Part A
 
+
+
+Part A 
 Create a Web page containing the following style definitions
 
 An embedded style that changes the color and alignment of the h1, h2, h3, h4, h5, and h6 tags.
@@ -32,9 +34,7 @@ Create contents that utilize the myId1 and myId2 id definitions
 
  
 
-Part
-
-B
+Part B
 Create a Web page containing a table with five links of your choice.
 
 Create four pseudo-class definitions for the four states of the links.
