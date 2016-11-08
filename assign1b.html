@@ -3,8 +3,38 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<style>
+		a:visited { color:red; }
+		a:link { 
+			text-decoration: none;
+			color: green; 
+		}
+		a:active {
+			text-transform: uppercase;
+			color: black;
+		}
+		a:hover { color: navy;}
+	</style>
 </head>
 <body>
-	
+	<table border="1px" width="30%" height="20%" style="background-color:cyan; border-spacing:10px; box-shadow: 10px 10px grey" align="center">
+		<caption>
+			Find out more about me:
+		</caption>
+			<tr>
+				<td style="text-align:center; font-weight:bold" colspan="5">Links to my sites</td>
+			</tr>
+			<tr>
+				<td vertical-alignment="middle" rowspan="2" style="padding-left:5px"><a href="https://bfazeli.github.io/">Personal Website</a></td>
+				<td style="padding-right:80px; padding-left:5px" colspan="3"><a href="https://www.facebook.com/bijan.fazeli">Facebook Profile</a></td>
+			</tr>
+			<tr>
+				<td colspan="3" style="padding-left:5px"><a href="https://www.twitch.tv/codebijan">Twitch Profile</a></td>
+			</tr>
+			<tr>
+				<td><a href="https://github.com/bfazeli">Github Page</a></td>
+				<td colspan="3" style="padding-left: 5px;"><a href="https://www.linkedin.com/in/bfazeli">Linkedin Profile</a></td>
+			</tr>
+	</table>
 </body>
 </html>
